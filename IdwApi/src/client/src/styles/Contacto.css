@@ -1,0 +1,101 @@
+html, body {
+    width: 100%!important;
+    overflow-x: hidden!important;
+}
+
+
+
+*{margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/*reset para que el tamano de la fuente de 1rem y 1em sean a 10px*/
+
+html{font-size: 62.5%;}
+
+ul{list-style: none;}
+
+a{text-decoration: none;
+ color: black;
+}
+
+
+
+
+
+
+
+
+
+.header-contactos {
+    animation: fadeInDown 1s ease-in-out;
+    border: 2px solid black;
+    display: flex;
+    gap: 40rem;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section-contacto {
+    margin: 1rem auto;
+}
+
+.texto-ayuda {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    padding: 2rem;
+    color: burlywood;
+}
+
+.section-contacto p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cuadro-ayuda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.boton-ayuda {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    font-size: 25px;
+    color: white;
+    background-color: burlywood;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border-radius: 100px;
+    cursor: pointer;
+    border: none;
+}
+
+.footer-contactos {
+    font-size: 4px;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+    border: 2px solid black;
+    flex-direction: column;
+    margin-top: 6
+}

@@ -1,0 +1,567 @@
+html, body {
+    width: 100%!important;
+    overflow-x: hidden!important;
+}
+
+
+
+*{margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+/*reset para que el tamano de la fuente de 1rem y 1em sean a 10px*/
+
+html{font-size: 62.5%;}
+
+ul{list-style: none;}
+
+a{text-decoration: none;
+ color: black;
+}
+
+
+/*para que las imagenes ocupen el 100% del contenedor*/
+
+
+/*Seccion inicio
+
+Header
+
+*/
+
+.header-conteiner {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+  
+
+.header-conteiner{
+
+    border: 2px solid black;
+    display: flex;
+    gap: 40rem;
+
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+    flex-wrap: wrap;
+  
+
+}
+
+.logo{
+    
+    width: 200px;
+    height: 50px;
+    
+
+
+
+}
+
+
+.list{
+
+    display: flex;
+
+    padding: 5rem;
+    gap: 15rem;
+    flex-wrap: wrap;
+   justify-content: center;
+    
+}   
+.list-item a{
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid antiquewhite;
+    transition: all 0.5s ease;
+   color: black;
+
+}
+
+ .list-item:hover a{
+    border-color: black;
+ }
+
+
+/*Section del Index*/
+
+
+.estilos-section{
+    max-width: 1200px;
+   
+     margin: 1rem auto;}
+     
+.texto{
+
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color:burlywood;
+ font-size: 40px;
+
+
+ padding: 0rem;
+
+text-align: center;
+
+
+}
+.imagen1{
+
+ 
+    display: flex;
+ justify-content: center;
+ 
+   width: 100%;
+   margin: 3rem auto;
+   padding: 0 1.5rem,;
+   gap: 1rem;
+
+
+
+
+}
+
+
+
+
+
+.texto2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:burlywood;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+   background-color: grey;
+   text-align: center;
+   border: 5px solid  burlywood;
+
+ }
+
+
+
+    
+
+
+.imagenes{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+
+    max-width: 1200px;
+    margin: 8rem auto;
+    flex-wrap: wrap;
+    padding: 0 1.5rem;
+
+}
+
+.articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1 1 clamp(300px,30%,400px);
+}
+
+.articulo-titulo{
+ font-size: 2rem;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ text-align: center;
+
+}
+
+.precio{
+
+font-size: 2rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bold;
+}
+.boton{
+
+    border: none;
+   background-color: wheat;
+   color: black;
+   padding: 1rem 2rem;
+   font-weight: bold;
+   border-radius: 100px;
+   cursor: pointer;
+   font-size: 2rem;
+}
+
+
+
+        
+   
+  
+   
+
+
+/*footer del index*/
+
+.footer {font-size: 4px;
+    gap: 1rem;
+display: flex;        
+align-items: center;
+justify-content: center;
+background-color: burlywood;
+border:  2px solid black;
+flex-direction: column;
+margin-top: 6rem;       
+} 
+
+
+
+   
+.footer p{ font-size: 2rem ;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    
+   
+   
+   }
+
+.redes{
+
+    display: flex;
+    font-size: 30px;
+   margin-top: 2rem;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  margin: 2rem auto;
+ flex-wrap: wrap;
+;
+}
+
+
+/*header del quienes somos*/
+
+.header-quienessomos {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+  
+
+.header-quienessomos{
+
+    border: 2px solid black;
+    display: flex;
+    gap: 40rem;
+
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+    flex-wrap: wrap;
+  
+
+}
+
+.logo{
+    
+    width: 200px;
+    height: 50px;
+    
+
+
+
+}
+
+
+.list2{
+
+    display: flex;
+
+    padding: 5rem;
+    gap: 15rem;
+    flex-wrap: wrap;
+   justify-content: center;
+    
+}   
+.list-item2 a{
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid antiquewhite;
+    transition: all 0.5s ease;
+   color: black;
+
+}
+
+ .list-item2:hover a{
+    border-color: black;
+ }
+
+
+
+
+
+
+/*section de quienes somos*/
+.section-quienessomo{
+    max-width: 1200px;
+    padding: 1.5rem;
+    margin: 1rem auto;}
+    
+
+
+
+.titulo{
+
+    text-align: center;
+    font-size: 45px;
+    margin: 4rem;
+    padding: 0rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: burlywood;
+}
+.texto3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 4rem;
+    margin: 8rem;
+    background-color: antiquewhite;
+  color: maroon;
+
+}
+
+.imagen2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+ /*footer quienes somos*/
+
+.footer-quienessomos {font-size: 4px;
+    gap: 1rem;
+display: flex;        
+align-items: center;
+justify-content: center;
+background-color: burlywood;
+border:  2px solid black;
+flex-direction: column;
+margin-top: 6rem;       
+} 
+
+
+
+   
+.footer-quienessomos p{ font-size: 2rem ;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    
+   
+   
+   }
+
+.redes2{
+
+    display: flex;
+    font-size: 30px;
+   margin-top: 2rem;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  margin: 2rem auto;
+ flex-wrap: wrap;
+;
+}
+
+/*Header de contactos*/
+
+.header-contactos {
+    animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+  
+
+.header-contactos{
+
+    border: 2px solid black;
+    display: flex;
+    gap: 40rem;
+
+    align-items: center;
+    justify-content: center;
+    background-color:antiquewhite;
+    flex-wrap: wrap;
+  
+
+}
+
+.logo{
+    
+    width: 200px;
+    height: 50px;
+    
+
+
+
+}
+
+
+.list3{
+
+    display: flex;
+
+    padding: 5rem;
+    gap: 15rem;
+    flex-wrap: wrap;
+   justify-content: center;
+    
+}   
+.list-item3 a{
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    border-bottom: 2px solid antiquewhite;
+    transition: all 0.5s ease;
+   color: black;
+
+}
+
+ .list-item3:hover a{
+    border-color: black;
+ }
+
+
+
+ .section-contacto{
+  margin: 1rem auto;
+
+  }
+
+    
+ 
+    
+ 
+
+ .texto-ayuda{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    padding: 2rem;
+    color: burlywood;
+
+ }
+
+ .section-contacto p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .cuadro-ayuda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+ }
+
+ .boton-ayuda{
+
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    font-size: 25px;
+    color: white;
+    background-color: burlywood;
+    padding: 1rem 2rem;
+      font-weight: bold;
+      border-radius: 100px;
+      cursor: pointer;
+      border: none;
+   
+   
+    }
+
+/*footer contactos*/
+
+.footer {font-size: 4px;
+    gap: 1rem;
+display: flex;        
+align-items: center;
+justify-content: center;
+background-color: burlywood;
+border:  2px solid black;
+flex-direction: column;
+margin-top: 6rem;       
+} 
+
+
+
+   
+.footer p{ font-size: 2rem ;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    
+   
+   
+   }
+
+.redes{
+
+    display: flex;
+    font-size: 30px;
+   margin-top: 2rem;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  margin: 2rem auto;
+ flex-wrap: wrap;
+;
+}
